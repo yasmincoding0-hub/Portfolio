@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Yasmin Mohamed - Full Stack Web Developer</title>
+  <meta name="description" content="Portfolio of Yasmin Mohamed, Full Stack Web Developer specializing in .NET and Angular." />
+  <link href="https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <nav id="navbar" aria-label="Primary navigation">
+    <div class="container">
+      <a href="#home" class="logo" aria-label="Homepage">Yasmin Mohamed</a>
+      <button id="nav-toggle" class="hamburger" aria-label="Toggle navigation" aria-expanded="false" aria-controls="nav-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul id="nav-menu" class="nav-menu">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <button id="dark-mode-toggle" aria-label="Toggle dark mode" class="dark-mode-toggle">🌙</button>
+    </div>
+  </nav>
+
+  <main>
+    <!-- Home / Hero -->
+    <section id="home" tabindex="-1" aria-label="Home section">
+      <div class="container hero-container">
+        <h1>Yasmin Mohamed</h1>
+        <h2>Full Stack Web Developer | .NET & Angular Specialist</h2>
+        <p>Creating dynamic, scalable, and user-friendly web applications with clean code and attractive UI.</p>
+        <div class="btn-group">
+          <a href="#projects" class="btn btn-primary">View Work</a>
+          <a href="#contact" class="btn btn-secondary">Contact</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" tabindex="-1" aria-label="About section">
+      <h3>About Me</h3>
+      <div class="container about-container">
+        <img src="assets/profile.jpg" alt="Yasmin Mohamed Profile Photo" class="profile-photo" loading="lazy" />
+        <div class="bio">
+          <p>
+            I am Yasmin Mohamed, a passionate Full Stack Web Developer specialized in .NET and Angular. I create dynamic, scalable, and user-friendly web applications. I combine strong backend logic with modern, responsive front-end designs to build unique digital experiences with clean code and attractive UI. I love building applications that solve problems and improve user experience.
+          </p>
+          <ul class="highlights" aria-label="Career highlights">
+            <li>Full-stack development with .NET & Angular</li>
+            <li>Responsive UI/UX design expertise</li>
+            <li>API integration and database management</li>
+            <li>Deployment and maintenance experience</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" tabindex="-1" aria-label="Skills section">
+      <h3>Skills</h3>
+      <div class="container skills-container">
+        <div class="skill-category">
+          <h4>Front-End</h4>
+          <div class="badges" role="list">
+            <span class="badge" role="listitem">HTML</span>
+            <span class="badge" role="listitem">CSS</span>
+            <span class="badge" role="listitem">JavaScript (ES6+)</span>
+            <span class="badge" role="listitem">Angular</span>
+            <span class="badge" role="listitem">TypeScript</span>
+            <span class="badge" role="listitem">Bootstrap</span>
+            <span class="badge" role="listitem">Tailwind</span>
+            <span class="badge" role="listitem">REST API</span>
+            <span class="badge" role="listitem">NgRx</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h4>Back-End</h4>
+          <div class="badges" role="list">
+            <span class="badge" role="listitem">.NET / ASP.NET Core</span>
+            <span class="badge" role="listitem">C#</span>
+            <span class="badge" role="listitem">Entity Framework Core</span>
+            <span class="badge" role="listitem">JWT Authentication</span>
+            <span class="badge" role="listitem">Identity</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h4>Database</h4>
+          <div class="badges" role="list">
+            <span class="badge" role="listitem">SQL Server</span>
+            <span class="badge" role="listitem">LINQ</span>
+            <span class="badge" role="listitem">Stored Procedures</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h4>Tools</h4>
+          <div class="badges" role="list">
+            <span class="badge" role="listitem">Git / GitHub</span>
+            <span class="badge" role="listitem">Azure</span>
+            <span class="badge" role="listitem">Docker basics</span>
+            <span class="badge" role="listitem">Agile / Scrum</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Offered Services -->
+    <section id="services" tabindex="-1" aria-label="Offered services section">
+      <h3>Offered Services</h3>
+      <div class="container services-container">
+        <article class="service-card" tabindex="0" aria-label="Web Development service">
+          <div class="service-icon" aria-hidden="true">💻</div>
+          <h4 class="service-title">Web Development</h4>
+          <p class="service-desc">Full-stack development with .NET & Angular to build scalable applications.</p>
+        </article>
+        <article class="service-card" tabindex="0" aria-label="Responsive UI/UX Design service">
+          <div class="service-icon" aria-hidden="true">🎨</div>
+          <h4 class="service-title">Responsive UI/UX Design</h4>
+          <p class="service-desc">Creating user-friendly, responsive interfaces with modern design principles.</p>
+        </article>
+        <article class="service-card" tabindex="0" aria-label="API Integration and Database Management service">
+          <div class="service-icon" aria-hidden="true">🔗</div>
+          <h4 class="service-title">API Integration & Database Management</h4>
+          <p class="service-desc">Seamless integration of APIs and efficient database handling.</p>
+        </article>
+        <article class="service-card" tabindex="0" aria-label="Deployment and Maintenance service">
+          <div class="service-icon" aria-hidden="true">🚀</div>
+          <h4 class="service-title">Deployment & Maintenance</h4>
+          <p class="service-desc">Reliable deployment and ongoing maintenance for smooth operations.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" tabindex="-1" aria-label="Projects section">
+      <h3>Projects</h3>
+      <div class="container projects-container">
+        <article class="project-card" tabindex="0" aria-label="Portfolio Website project">
+          <img src="assets/project-portfolio.jpg" alt="Portfolio Website screenshot" class="project-image" loading="lazy" />
+          <div class="project-content">
+            <h4 class="project-title">Portfolio Website</h4>
+            <p class="project-desc">Personal responsive portfolio with dark/light mode.</p>
+            <div class="tech-list" aria-label="Technologies used">
+              <span>Angular</span><span>TypeScript</span><span>CSS</span>
+            </div>
+            <div class="project-links">
+              <a href="#" target="_blank" rel="noopener" aria-label="Portfolio Website Demo">Demo</a>
+              <a href="#" target="_blank" rel="noopener" aria-label="Portfolio Website GitHub repository">GitHub</a>
+            </div>
+          </div>
+        </article>
+        <article class="project-card" tabindex="0" aria-label="Task Manager App project">
+          <img src="assets/project-taskmanager.jpg" alt="Task Manager App screenshot" class="project-image" loading="lazy" />
+          <div class="project-content">
+            <h4 class="project-title">Task Manager App</h4>
+            <p class="project-desc">CRUD app built with Angular and .NET API.</p>
+            <div class="tech-list" aria-label="Technologies used">
+              <span>Angular</span><span>.NET Core</span><span>SQL Server</span>
+            </div>
+            <div class="project-links">
+              <a href="#" target="_blank" rel="noopener" aria-label="Task Manager App Demo">Demo</a>
+              <a href="#" target="_blank" rel="noopener" aria-label="Task Manager App GitHub repository">GitHub</a>
+            </div>
+          </div>
+        </article>
+        <article class="project-card" tabindex="0" aria-label="E-commerce Store project">
+          <img src="assets/project-ecommerce.jpg" alt="E-commerce Store screenshot" class="project-image" loading="lazy" />
+          <div class="project-content">
+            <h4 class="project-title">E-commerce Store</h4>
+            <p class="project-desc">Demo shop with cart and authentication features.</p>
+            <div class="tech-list" aria-label="Technologies used">
+              <span>Angular</span><span>.NET Core</span><span>JWT</span>
+            </div>
+            <div class="project-links">
+              <a href="#" target="_blank" rel="noopener" aria-label="E-commerce Store Demo">Demo</a>
+              <a href="#" target="_blank" rel="noopener" aria-label="E-commerce Store GitHub repository">GitHub</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" tabindex="-1" aria-label="Contact section">
+      <h3>Contact Me</h3>
+      <div class="container contact-container">
+        <div class="contact-info" aria-label="Contact information">
+          <p>Email: <a href="mailto:yasmincoding0@gmail.com">yasmincoding0@gmail.com</a></p>
+          <p>LinkedIn: <a href="https://www.linkedin.com/in/yasmin-mohamed-495a20200" target="_blank" rel="noopener">linkedin.com/in/yasmin-mohamed-495a20200</a></p>
+          <p>GitHub: <a href="https://github.com/yasmincoding0-hub" target="_blank" rel="noopener">github.com/yasmincoding0-hub</a></p>
+        </div>
+        <form id="contact-form" novalidate aria-label="Contact form">
+          <label for="name">Name <span aria-hidden="true">*</span></label>
+          <input type="text" id="name" name="name" required aria-required="true" />
+          <span class="error-message" id="name-error" aria-live="polite"></span>
+
+          <label for="email">Email <span aria-hidden="true">*</span></label>
+          <input type="email" id="email" name="email" required aria-required="true" />
+          <span class="error-message" id="email-error" aria-live="polite"></span>
+
+          <label for="message">Message <span aria-hidden="true">*</span></label>
+          <textarea id="message" name="message" rows="5" required aria-required="true"></textarea>
+          <span class="error-message" id="message-error" aria-live="polite"></span>
+
+          <button type="submit" class="btn btn-primary">Send</button>
+          <div id="form-status" role="alert" aria-live="assertive"></div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2024 Yasmin Mohamed. All rights reserved.</p>
+  </footer>
+
+  <script src="scripts.js" defer></script>
+</body>
+</html>
